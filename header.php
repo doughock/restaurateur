@@ -6,6 +6,7 @@
 <title><?php wp_title('|', true, 'left'); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <?php wp_head(); ?>
 </head>
@@ -32,8 +33,12 @@
         
         <div id="social-media" class="clearfix">
         
-        	<?php if ( get_theme_mod( 'restaurateur_facebook' ) ) : ?>
-            <a href="<?php echo esc_url( get_theme_mod( 'restaurateur_facebook' ) ); ?>" class="social-fb" title="<?php echo esc_url( get_theme_mod( 'restaurateur_facebook' ) ); ?>"><?php _e('Facebook', 'restaurateur') ?></a>
+	    <?php if ( get_theme_mod( 'restaurateur_tripadvisor' ) ) : ?>
+		<a href="<?php echo esc_url( get_theme_mod( 'restaurateur_tripadvisor' ) ); ?>" class="social-tr" title="TripAdvisor" target="_blank"><?php _e('Tripadvisor', 'restaurateur') ?></a>
+            <?php endif; ?>
+			
+            <?php if ( get_theme_mod( 'restaurateur_facebook' ) ) : ?>
+            <a href="<?php echo esc_url( get_theme_mod( 'restaurateur_facebook' ) ); ?>" class="social-fb" title="Facebook" target="_blank"><?php _e('Facebook', 'restaurateur') ?></a>
             <?php endif; ?>
             
             <?php if ( get_theme_mod( 'restaurateur_twitter' ) ) : ?>
@@ -90,14 +95,9 @@
 			
 			
 			<?php if ( get_theme_mod( 'restaurateur_foursquare' ) ) : ?>
-				<a href="<?php echo esc_url( get_theme_mod( 'restaurateur_foursquare' ) ); ?>" class="social-four" title="<?php echo esc_url( get_theme_mod( 'restaurateur_foursquare' ) ); ?>"><?php _e('Foursquare', 'restaurateur') ?></a>
+				<a href="<?php echo esc_url( get_theme_mod( 'restaurateur_foursquare' ) ); ?>" class="social-fo" title="<?php echo esc_url( get_theme_mod( 'restaurateur_foursquare' ) ); ?>"><?php _e('Foursquare', 'restaurateur') ?></a>
             <?php endif; ?>
 			
-			<?php if ( get_theme_mod( 'restaurateur_tripadvisor' ) ) : ?>
-				<a href="<?php echo esc_url( get_theme_mod( 'restaurateur_tripadvisor' ) ); ?>" class="social-trip" title="<?php echo esc_url( get_theme_mod( 'restaurateur_tripadvisor' ) ); ?>"><?php _e('Tripadvisor', 'restaurateur') ?></a>
-            <?php endif; ?>
-			
-            
             <div id="search-icon"></div>
           </div>
 	    </div>

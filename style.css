@@ -797,11 +797,11 @@ SOCIAL MEDIA BUTTONS STYLES
 	
 	
 	
-	#social-media a.social-four {
-		background-image: url(library/images/icon-four.png);
+	#social-media a.social-fo {
+		background-image: url(library/images/icon-fo.png);
 	}
-	#social-media a.social-trip {
-		background-image: url(library/images/icon-trip.png);
+	#social-media a.social-tr {
+		background-image: url(library/images/icon-tr.png);
 	}
 	
 	
@@ -1814,12 +1814,13 @@ SIDEBARS & ASIDES
 	}
 		#sidebar-home .widget {
 			display: inline-block;
-			width: 24.67%;
+			width: 33.33%;
 			-moz-box-sizing: border-box;
 			-webkit-box-sizing: border-box;
 			-o-box-sizing: border-box;
 			box-sizing: border-box;
 			vertical-align: top;
+			text-align: center;
 			margin: 0;
 			padding: 0 1.75% 24px 1.75%; /* for ie8 & below */
 			padding: 0 1.75% 1.5rem 1.75%;
@@ -2677,11 +2678,11 @@ jQuery SLIDER STYLES
     display: inline-block; 
 	color: #fff; 
 	cursor: pointer;
-	text-shadow: -1px -1px #bcbcbc;
+	text-shadow: 0 0 1px #bcbcbc; 
 	overflow: hidden;
 }
 
-.cycle-pager span.cycle-pager-active { color: #e0d9cb;}
+.cycle-pager span.cycle-pager-active { color: #820013; }
 .cycle-pager > * { cursor: pointer;}
 
 .no-slide-image {
@@ -2701,7 +2702,7 @@ jQuery SLIDER STYLES
 	font-size: 21px;
 	font-weight: 400;
 	line-height: 32px;
-	padding: 0 5px 30px 5px;
+	padding: 0 5px 0px 5px;
 }
 
 /******************************************************************
