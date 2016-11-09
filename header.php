@@ -46,7 +46,7 @@
             <?php endif; ?>
 			
             <?php if ( get_theme_mod( 'restaurateur_google' ) ) : ?>
-            <a href="<?php echo esc_url( get_theme_mod( 'restaurateur_google' ) ); ?>" class="social-gp" title="<?php echo esc_url( get_theme_mod( 'restaurateur_google' ) ); ?>"><?php _e('Google+', 'restaurateur') ?></a>
+            <a href="<?php echo esc_url( get_theme_mod( 'restaurateur_google' ) ); ?>" class="social-gp" title="Google+" target="_blank"><?php _e('Google+', 'restaurateur') ?></a>
             <?php endif; ?>
             
             <?php if ( get_theme_mod( 'restaurateur_pinterest' ) ) : ?>
@@ -66,7 +66,7 @@
             <?php endif; ?>
             
             <?php if ( get_theme_mod( 'restaurateur_instagram' ) ) : ?>
-            <a href="<?php echo esc_url( get_theme_mod( 'restaurateur_instagram' ) ); ?>" class="social-in" title="<?php echo esc_url( get_theme_mod( 'restaurateur_instagram' ) ); ?>"><?php _e('Instagram', 'restaurateur') ?></a>
+            <a href="<?php echo esc_url( get_theme_mod( 'restaurateur_instagram' ) ); ?>" class="social-in" title="Instagram" target="_blank"><?php _e('Instagram', 'restaurateur') ?></a>
             <?php endif; ?>
             
             <?php if ( get_theme_mod( 'restaurateur_flickr' ) ) : ?>
@@ -78,7 +78,7 @@
             <?php endif; ?>
             
             <?php if ( get_theme_mod( 'restaurateur_yelp' ) ) : ?>
-            <a href="<?php echo esc_url( get_theme_mod( 'restaurateur_yelp' ) ); ?>" class="social-ye" title="<?php echo esc_url( get_theme_mod( 'restaurateur_yelp' ) ); ?>"><?php _e('Yelp', 'restaurateur') ?></a>
+            <a href="<?php echo esc_url( get_theme_mod( 'restaurateur_yelp' ) ); ?>" class="social-ye" title="Yelp" target="_blank"><?php _e('Yelp', 'restaurateur') ?></a>
             <?php endif; ?>
             
             <?php if ( get_theme_mod( 'restaurateur_opentable' ) ) : ?>
@@ -90,15 +90,15 @@
             <?php endif; ?>
             
             <?php if ( get_theme_mod( 'restaurateur_email' ) ) : ?>
-            <a href="<?php _e('mailto:', 'restaurateur'); echo sanitize_email( get_theme_mod( 'restaurateur_email' ) ); ?>" class="social-em" title="<?php _e('mailto:', 'restaurateur'); echo sanitize_email( get_theme_mod( 'restaurateur_email' ) ); ?>"><?php _e('Email', 'restaurateur') ?></a>
+            <a href="<?php _e('mailto:', 'restaurateur'); echo sanitize_email( get_theme_mod( 'restaurateur_email' ) ); ?>" class="social-em" title="<?php _e('Send email to ', 'restaurateur'); echo sanitize_email( get_theme_mod( 'restaurateur_email' ) ); ?>"><?php _e('Email', 'restaurateur') ?></a>
             <?php endif; ?>
 			
 			
 			<?php if ( get_theme_mod( 'restaurateur_foursquare' ) ) : ?>
 				<a href="<?php echo esc_url( get_theme_mod( 'restaurateur_foursquare' ) ); ?>" class="social-fo" title="<?php echo esc_url( get_theme_mod( 'restaurateur_foursquare' ) ); ?>"><?php _e('Foursquare', 'restaurateur') ?></a>
             <?php endif; ?>
-			
-            <div id="search-icon"></div>
+            
+            <!-- <div id="search-icon"></div> -->
           </div>
 	    </div>
       
