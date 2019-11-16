@@ -40,8 +40,10 @@ jQuery("#reservation-date").change(function(e) {
 
   var val = jQuery('select#reservation-time option:selected').text();
 
-  // if Sunday
-  if(dow == 0) {
+  // if Sunday only
+  //if(dow == 0) {
+  // if Wednesday thru Sunday (0, 3, 4, 5, 6)
+  if(dow == 0 || (dow >= 3 && dow <= 6)) {
     // set available times for Sunday
     var options = [
       {text: "11:30 AM", value: 11.50},
@@ -59,6 +61,11 @@ jQuery("#reservation-date").change(function(e) {
       {text: "14:30 PM", value: 14.50},
       {text: "14:45 PM", value: 14.75},
       {text: "15:00 PM", value: 15},
+      {text: "15:15 PM", value: 15.25},
+      {text: "15:30 PM", value: 15.50},
+      {text: "15:45 PM", value: 15.75},
+      {text: "16:00 PM", value: 16},
+      {text: "16:15 PM", value: 16.25},
       {text: "---", value: 0},
       {text: "6:00 PM", value: 18},
       {text: "6:15 PM", value: 18.25},
