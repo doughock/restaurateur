@@ -21,6 +21,11 @@ read
 @import url(https://fonts.googleapis.com/css?family=Damion);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@font-face {
+    font-family: Amaze;
+    src:url("assets/fonts/Amaze.ttf");
+}
 /******************************************************************
 RESET STYLES
 ******************************************************************/
@@ -109,7 +114,7 @@ body {
 	font-size: 1rem; 
 	line-height: 24px; /* for ie8 & below*/ 
 	line-height: 1.5rem; 
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: 'Source Sans Pro', Georgia, "Times New Roman", Times, serif;
 }
 
 p { 
@@ -692,7 +697,7 @@ SEARCH BOX
 #searchform input[type=submit] {
 	height: 30px;
 	background-color: #5e5d5c;
-	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', "Droid Sans", Arial, Helvetica, sans-serif;
 	font-weight: 700;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -706,7 +711,7 @@ SEARCH BOX
 	width: 23px;
 	height: 23px;
 	background-color: #5e5d5c;
-	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', "Droid Sans", Arial, Helvetica, sans-serif;
 	font-weight: 700;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -830,7 +835,7 @@ h2, .h2,
 h3, .h3,
 h4, .h4, 
 h5, .h5 {
-	font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+	font-family: 'Source Sans Pro', "Droid Serif", Georgia, "Times New Roman", Times, serif;
 	font-weight: 400;
 }
 
@@ -880,7 +885,8 @@ header[role=banner] {
 	#site-title {
 		margin-bottom: 24px; /* for ie8 & below */
 		margin-bottom: 1.5rem;
-		font-family: "Damion", Georgia, "Times New Roman", Times, serif;
+		/* font-family: "Damion", Georgia, "Times New Roman", Times, serif; */
+		font-family: Amaze;
 		font-size: 60px;
 		font-weight: 400;
 	}
@@ -904,7 +910,8 @@ header[role=banner] {
 .entry-title {
 	font-size: 30px; /* for ie8 & below */ 
 	font-size: 1.85rem;
-	font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+	/* font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif; */
+	font-family: Amaze;
 	font-weight: 400;
 	line-height: 32px; /* for ie8 & below */
 	line-height: 2rem;
@@ -1022,7 +1029,7 @@ nav[role=navigation] {
 			nav[role=navigation] .menu #menu-icon { 
 				padding: 15px 20px;
 				color: #fff !important;
-				font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+				font-family: 'Source Sans Pro', "Droid Sans", Arial, Helvetica, sans-serif;
 				font-weight: 700;
 				font-size: 14px; /* for ie8 & below */
 				font-size: 0.9rem;
@@ -1191,7 +1198,7 @@ POSTS & CONTENT STYLES
 		/* post meta */
 		.entry-meta, 
 		.category-archive-meta { 
-			font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+			font-family: 'Source Sans Pro', "Droid Sans", Arial, Helvetica, sans-serif;
 			font-size: 13px; /* for ie8 & below */
 			font-size: .8rem;
 			font-weight: 400;
@@ -1375,7 +1382,7 @@ POSTS & CONTENT STYLES
 					left: 0;
 					top: 2px;
 					color: #a0a0a0;
-					font-family: Arial, Helvetica, sans-serif;
+					font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
 					font-weight: bold;
 					font-size: 12px;
 					text-align: center;
@@ -1397,7 +1404,7 @@ POSTS & CONTENT STYLES
 					left: 0;
 					top: 0;
 					color: #a0a0a0;
-					font-family: Arial, Helvetica, sans-serif;
+					font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
 					font-weight: 700;
 					font-size: 16px;
 				}
@@ -1423,7 +1430,7 @@ POSTS & CONTENT STYLES
 			
 			.commentlist li.comment article[id*=comment-] blockquote:before, 
 			.post-content blockquote:before { 
-				font-family: Georgia, serif;
+				font-family: 'Source Sans Pro', Georgia, serif;
 				font-weight: 700;
 				content: "“";
 				font-size: 80px; /* for ie8 & below*/ 
@@ -1518,7 +1525,7 @@ POSTS & CONTENT STYLES
 			border-radius: 15px;
 			display: inline-block;
 			padding: 2px 15px;
-			font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+			font-family: 'Source Sans Pro', "Droid Sans", Arial, Helvetica, sans-serif;
 			font-size: 13px; /* for ie8 & below */
 			font-size: 0.8rem;
 			font-weight: 700;
@@ -1659,7 +1666,7 @@ PAGE NAVI STYLES
 (Special Feature)
 ******************************************************************/
 .pagination {
-	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', "Droid Sans", Arial, Helvetica, sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -1763,7 +1770,7 @@ PAGE LINK STYLES
 	border-radius: 15px;
 	display: inline-block;
 	padding: 2px 15px;
-	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', "Droid Sans", Arial, Helvetica, sans-serif;
 	font-size: 13px; /* for ie8 & below*/
 	font-size: 0.8rem;
 	font-weight: 700;
@@ -1861,7 +1868,7 @@ SIDEBARS & ASIDES
 		
 		#sidebar .widget-title,
 		#sidebar-home .widget-title {
-			font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+			font-family: 'Source Sans Pro', "Droid Sans", Arial, Helvetica, sans-serif;
 			font-size: 20px; /* for ie8 & below */
 			font-size: 1.25rem;
 			font-weight: 700;
@@ -1982,7 +1989,7 @@ COMMENT STYLES
 	color: #5e5d5c;
 }
 #comments-title {
-	font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+	font-family: 'Source Sans Pro', "Droid Serif", Georgia, "Times New Roman", Times, serif;
 	font-size: 21px; /* for ie8 & below */
 	font-size: 1.3rem;
 	font-weight: 400;
@@ -2091,7 +2098,7 @@ body.page-template-full-width-php .commentlist {}
 				float: left; 
 			}
 				.commentlist .vcard cite.fn {
-					font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+					font-family: 'Source Sans Pro', "Droid Sans", Arial, Helvetica, sans-serif;
 					font-size: 14px;
 					font-weight: 700; 
 					font-style: normal;
@@ -2120,7 +2127,7 @@ body.page-template-full-width-php .commentlist {}
 				}
 				.commentlist .vcard cite.fn a.url {}
 			.commentlist .comment-meta {
-				font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+				font-family: 'Source Sans Pro', "Droid Sans", Arial, Helvetica, sans-serif;
 				font-size: 14px;
 				font-weight: 400; 
 				font-style: normal;
@@ -2161,7 +2168,7 @@ body.page-template-full-width-php .commentlist {}
 					border-radius: 15px;
 					display: inline-block;
 					padding: 2px 15px;
-					font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+					font-family: 'Source Sans Pro', "Droid Sans", Arial, Helvetica, sans-serif;
 					font-size: 13px; /* for ie8 & below */
 					font-size: 0.8rem;
 					font-weight: 700;
@@ -2190,7 +2197,7 @@ body.page-template-full-width-php #respond-form {}
 	color: #5e5d5c;
 }
 #reply-title {
-	font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+	font-family: 'Source Sans Pro', "Droid Serif", Georgia, "Times New Roman", Times, serif;
 	font-size: 18px; /* for ie8 & below */
 	font-size: 1.3rem;
 	font-weight: 400;
@@ -2199,7 +2206,7 @@ body.page-template-full-width-php #respond-form {}
 }
 #respond label {
 	display: inline-block;
-	font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+	font-family: 'Source Sans Pro', "Droid Serif", Georgia, "Times New Roman", Times, serif;
 	font-size: 16px;
 	font-weight: 700;
 	min-width: 90px;
@@ -2214,7 +2221,7 @@ body.page-template-full-width-php #respond-form {}
 	}
 	
 	.post-content form label {
-		font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+		font-family: 'Source Sans Pro', "Droid Serif", Georgia, "Times New Roman", Times, serif;
 		font-size: 16px;
 		font-weight: 700;
 	}
@@ -2245,7 +2252,7 @@ body.page-template-full-width-php #respond-form {}
 
 #respond .comment-notes,
 #respond .logged-in-as {
-	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', "Droid Sans", Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	text-transform: uppercase;
 }
@@ -2334,7 +2341,7 @@ body.page-template-full-width-php #respond-form {}
 					border-radius: 15px;
 					display: inline-block;
 					padding: 6px 15px;
-					font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+					font-family: 'Source Sans Pro', "Droid Sans", Arial, Helvetica, sans-serif;
 					font-size: 13px; /* for ie8 & below */
 					font-size: 0.8rem;
 					font-weight: 700;
@@ -2527,7 +2534,7 @@ footer[role=contentinfo] {
 	}
 	
 	#site-generator {
-		font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+		font-family: 'Source Sans Pro', "Droid Sans", Arial, Helvetica, sans-serif;
 		font-weight: 700;
 		font-size: 11px;
 		color: #fff;
@@ -2621,7 +2628,7 @@ jQuery SLIDER STYLES
 		}
 	
 	.slides .slide-noimg {
-		font-family: "Lato", Verdana, Geneva, sans-serif;
+		font-family: 'Source Sans Pro', "Lato", Verdana, Geneva, sans-serif;
 		font-size: 20px;
 		font-weight: 900;
 		position: absolute;
@@ -2657,7 +2664,7 @@ jQuery SLIDER STYLES
 
 .cycle-paused:after {
 	content: 'Paused'; 
-	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', "Open Sans", Arial, Helvetica, sans-serif;
 	font-size: 12px; /* for ie8 & below */
 	font-size: 0.75rem;
 	text-transform: uppercase;
@@ -2679,7 +2686,7 @@ jQuery SLIDER STYLES
 }
 
 .cycle-pager span { 
-    font-family: arial; 
+    font-family: 'Source Sans Pro', arial; 
 	font-size: 50px; 
 	width: 18px; 
 	height: 22px; 
@@ -2697,7 +2704,7 @@ jQuery SLIDER STYLES
 	position: absolute;
 	width: 100%;
 	top: 40%;
-	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', "Droid Sans", Arial, Helvetica, sans-serif;
 	font-size: 34px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -2706,7 +2713,7 @@ jQuery SLIDER STYLES
 }
 
 .intro-content {
-	font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+	font-family: 'Source Sans Pro', "Droid Serif", Georgia, "Times New Roman", Times, serif;
 	font-size: 21px;
 	font-weight: 400;
 	line-height: 32px;
@@ -2902,7 +2909,7 @@ Menu Styles
 #menu-filters li a,
 #menu-item-icon {
 	display: block;
-	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', "Droid Sans", Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: 700;
 	text-transform: uppercase;
